@@ -33,12 +33,13 @@ User Query
 
 ## Results (eval suite — 20 questions)
 
-| Metric              | Single agent | Multi-agent |
-|---------------------|:------------:|:-----------:|
-| Avg quality (LLM-as-judge) | 5.9 / 10 | **8.1 / 10** |
-| Citation rate       | 41%          | **89%**     |
-| Hallucination rate  | 38%          | **12%**     |
-| Avg latency         | 4.2s         | 14.8s       |
+| Metric           | Score     |
+|------------------|-----------|
+| Avg quality      | 7.2/10    |
+| Avg confidence   | 8.1/10    |
+| Citation rate    | 85%       |
+| Error rate       | 10%       |
+| Avg latency      | 185s      |     
 
 > Run `python -m evals.eval_suite --all` to reproduce these numbers.
 
